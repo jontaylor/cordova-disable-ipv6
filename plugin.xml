@@ -3,7 +3,7 @@
         id="com.example.ipv6_disable"
         version="0.7.0">
 
-  <name>Hello</name>
+  <name>ipv6_disable</name>
 
   <engines>
     <engine name="cordova" version=">=3.4.0"/>
@@ -13,12 +13,12 @@
   <platform name="android">
 
     <config-file target="res/xml/config.xml" parent="/*">
-      <feature name="ipv6-disable">
+      <feature name="ipv6_disable">
         <param name="android-package" value="com.example.plugin.ipv6_disable"/>
       </feature>
     </config-file>
 
-    <source-file src="src/android/IPV6.java" target-dir="src/com/example/plugin/"/>
+    <source-file src="src/android/ipv6_disable.java" target-dir="src/com/example/plugin/"/>
   </platform>
 
 </plugin>

@@ -7,8 +7,8 @@ This lets you work around that by disabling ipv6.
 
 Install the plugin
 
-    $ cd hello
-    $ cordova plugin install https://github.com/jontaylor/cordova-disable-ipv6
+    $ cd ipv6_disable
+    $ cordova plugin add https://github.com/jontaylor/cordova-disable-ipv6
     
 
 
